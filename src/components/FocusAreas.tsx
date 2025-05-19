@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, Chart, Users, Check } from 'lucide-react';
+import { Heart, BarChart, Users, Check } from 'lucide-react';
 
 const FocusAreas = () => {
   const areas = [
@@ -10,7 +10,7 @@ const FocusAreas = () => {
       description: "Developing technologies that enable healthcare providers to monitor patients outside of conventional clinical settings, improving access to care while reducing costs."
     },
     {
-      icon: <Chart className="w-12 h-12" />,
+      icon: <BarChart className="w-12 h-12" />,
       title: "AI Diagnostics & Imaging",
       description: "Leveraging artificial intelligence to improve diagnostic accuracy, speed, and accessibility across various medical specialties."
     },

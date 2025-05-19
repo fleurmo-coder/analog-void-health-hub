@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Check, Heart, Users, Chart } from 'lucide-react';
+import { Check, Heart, Users, BarChart } from 'lucide-react';
 
 const OurApproach = () => {
   const approachItems = [
@@ -10,7 +10,7 @@ const OurApproach = () => {
       description: "We develop solutions that prioritize improving patient outcomes and experiences, making healthcare more accessible, efficient, and personal."
     },
     {
-      icon: <Chart className="w-12 h-12 text-noanalog-green" />,
+      icon: <BarChart className="w-12 h-12 text-noanalog-green" />,
       title: "Data-Driven Insights",
       description: "Our ventures leverage advanced analytics and AI to transform healthcare data into actionable insights that drive better clinical decision-making."
     },
