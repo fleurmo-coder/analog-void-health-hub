@@ -41,13 +41,13 @@ const ContactSection = () => {
   return (
     <section id="contact" className="section-padding bg-noanalog-darker relative overflow-hidden">
       {/* Background elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-noanalog-green/5 rounded-full filter blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-noanalog-green/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-[#ADD8E6]/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-[#ADD8E6]/5 rounded-full filter blur-3xl"></div>
       
       <div className="container px-4 mx-auto relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="heading">
-            Get in <span className="text-noanalog-green">Touch</span>
+            Get in <span className="text-[#ADD8E6]">Touch</span>
           </h2>
           <p className="subheading">
             Have a question or interested in partnering with us? Reach out today.
@@ -59,7 +59,7 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
             <div className="space-y-6">
               <div>
-                <h4 className="text-noanalog-green font-medium mb-2">Address</h4>
+                <h4 className="text-[#ADD8E6] font-medium mb-2">Address</h4>
                 <p className="text-gray-400">
                   123 Innovation Way<br />
                   Suite 500<br />
@@ -67,14 +67,14 @@ const ContactSection = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-noanalog-green font-medium mb-2">Email</h4>
-                <a href="mailto:info@noanalogventures.com" className="text-gray-400 hover:text-noanalog-green transition-colors">
+                <h4 className="text-[#ADD8E6] font-medium mb-2">Email</h4>
+                <a href="mailto:info@noanalogventures.com" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
                   info@noanalogventures.com
                 </a>
               </div>
               <div>
-                <h4 className="text-noanalog-green font-medium mb-2">Phone</h4>
-                <a href="tel:+14155555555" className="text-gray-400 hover:text-noanalog-green transition-colors">
+                <h4 className="text-[#ADD8E6] font-medium mb-2">Phone</h4>
+                <a href="tel:+14155555555" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
                   (415) 555-5555
                 </a>
               </div>
@@ -108,7 +108,7 @@ const ContactSection = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-noanalog-green focus:outline-none focus:ring-1 focus:ring-noanalog-green"
+                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   />
                 </div>
                 
@@ -123,7 +123,7 @@ const ContactSection = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-noanalog-green focus:outline-none focus:ring-1 focus:ring-noanalog-green"
+                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   />
                 </div>
                 
@@ -138,7 +138,7 @@ const ContactSection = () => {
                     value={formData.organization}
                     onChange={handleChange}
                     required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-noanalog-green focus:outline-none focus:ring-1 focus:ring-noanalog-green"
+                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   />
                 </div>
                 
@@ -151,7 +151,7 @@ const ContactSection = () => {
                     name="partnerType"
                     value={formData.partnerType}
                     onChange={handleChange}
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-noanalog-green focus:outline-none focus:ring-1 focus:ring-noanalog-green"
+                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   >
                     <option>Hospital Group</option>
                     <option>Development Partner</option>
@@ -172,7 +172,7 @@ const ContactSection = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-noanalog-green focus:outline-none focus:ring-1 focus:ring-noanalog-green"
+                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   ></textarea>
                 </div>
                 
@@ -180,7 +180,7 @@ const ContactSection = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-noanalog-green hover:bg-noanalog-green-dark text-black font-medium py-2 rounded-md transition-colors flex items-center justify-center"
+                    className="w-full bg-[#ADD8E6] hover:bg-[#9FCCE6] text-black font-medium py-2 rounded-md transition-colors flex items-center justify-center"
                   >
                     {isSubmitting ? (
                       <>
