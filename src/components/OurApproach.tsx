@@ -80,8 +80,8 @@ const OurApproach = () => {
               <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 p-1 rounded-lg overflow-hidden border border-white/20">
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 to-transparent opacity-30 rounded-lg"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
-                  alt="Medical innovation" 
+                  src="/lovable-uploads/7996abde-021a-40ae-801e-05674f4ec6ee.png" 
+                  alt="Digital health innovation with DNA, pills, and medical technology" 
                   className="rounded-lg w-full h-64 object-cover"
                 />
               </div>
