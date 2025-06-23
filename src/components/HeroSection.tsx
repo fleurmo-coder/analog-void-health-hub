@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pitch-gradient">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Design Elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-1/4 w-96 h-96 rounded-full bg-emerald-400/10 filter blur-3xl animate-pulse-glow"></div>
@@ -56,17 +56,17 @@ const HeroSection = () => {
         {/* Hero Stats */}
         <div className="mt-24 w-full max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
-              <div className="text-emerald-400 text-4xl font-bold">100%</div>
-              <div className="text-gray-200 mt-2">Success in translating scientific advancements</div>
+            <div className="glass-card p-8 rounded-lg border border-white/20">
+              <div className="text-emerald-400 text-4xl font-bold">4</div>
+              <div className="text-gray-200 mt-2">In-or-near portfolio ventures</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
+            <div className="glass-card p-8 rounded-lg border border-white/20">
+              <div className="text-emerald-400 text-4xl font-bold">60</div>
+              <div className="text-gray-200 mt-2">Venture leads in the pipeline</div>
+            </div>
+            <div className="glass-card p-8 rounded-lg border border-white/20">
               <div className="text-emerald-400 text-4xl font-bold">50+</div>
-              <div className="text-gray-200 mt-2">Healthcare partnerships worldwide</div>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border border-white/20">
-              <div className="text-emerald-400 text-4xl font-bold">10+</div>
-              <div className="text-gray-200 mt-2">Years of digital health expertise</div>
+              <div className="text-gray-200 mt-2">Combined years experience in venture building</div>
             </div>
           </div>
         </div>
