@@ -7,8 +7,8 @@ const HeroSection = () => {
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Design Elements */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 rounded-full bg-[#ADD8E6]/10 filter blur-3xl animate-pulse-glow"></div>
-        <div className="absolute bottom-20 right-1/4 w-64 h-64 rounded-full bg-[#ADD8E6]/10 filter blur-3xl animate-pulse-glow" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute top-20 left-1/4 w-96 h-96 rounded-full bg-blue-300/10 filter blur-3xl animate-pulse-glow"></div>
+        <div className="absolute bottom-20 right-1/4 w-64 h-64 rounded-full bg-blue-400/10 filter blur-3xl animate-pulse-glow" style={{ animationDelay: '1.5s' }}></div>
         
         {/* Subtle overlay */}
         <div className="absolute inset-0 bg-black/10"></div>
@@ -22,13 +22,13 @@ const HeroSection = () => {
           {/* Large Company Name with Logo */}
           <div className="mb-8 flex flex-col items-center">
             <img 
-              src="/lovable-uploads/7a03f499-ac93-405d-b2ae-779ac3080daf.png" 
+              src="/lovable-uploads/5c54a95e-a93a-4249-8b80-55b8f898d2e7.png" 
               alt="No Analog Ventures Logo" 
               className="h-16 md:h-24 lg:h-32 w-auto mb-6"
             />
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-light tracking-tight text-white nav-w-logo">
               <span className="logo-no">No</span> <span className="logo-analog">Analog</span>
-              <span className="text-[#ADD8E6] font-light">.Ventures</span>
+              <span className="text-blue-300 font-light">.Ventures</span>
             </h1>
           </div>
 
@@ -45,13 +45,13 @@ const HeroSection = () => {
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
             <a 
               href="#approach" 
-              className="bg-[#ADD8E6] hover:bg-[#9FCCE6] text-slate-900 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
+              className="bg-blue-300 hover:bg-blue-400 text-slate-900 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
             >
               Our Approach
             </a>
             <a 
               href="#contact" 
-              className="bg-transparent hover:bg-white/10 border-2 border-[#ADD8E6] text-[#ADD8E6] px-8 py-4 rounded-lg transition-colors font-medium text-lg"
+              className="bg-transparent hover:bg-white/10 border-2 border-blue-300 text-blue-300 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
             >
               Partner With Us
             </a>
@@ -62,15 +62,15 @@ const HeroSection = () => {
         <div className="mt-24 w-full max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="glass-card p-8 rounded-lg border border-white/20">
-              <div className="text-[#ADD8E6] text-4xl font-bold">4</div>
+              <div className="text-blue-300 text-4xl font-bold">4</div>
               <div className="text-gray-200 mt-2">In-or-near portfolio ventures</div>
             </div>
             <div className="glass-card p-8 rounded-lg border border-white/20">
-              <div className="text-[#ADD8E6] text-4xl font-bold">60</div>
+              <div className="text-blue-300 text-4xl font-bold">60</div>
               <div className="text-gray-200 mt-2">Venture leads in the pipeline</div>
             </div>
             <div className="glass-card p-8 rounded-lg border border-white/20">
-              <div className="text-[#ADD8E6] text-4xl font-bold">50+</div>
+              <div className="text-blue-300 text-4xl font-bold">50+</div>
               <div className="text-gray-200 mt-2">Combined years experience in venture building</div>
             </div>
           </div>
@@ -79,8 +79,8 @@ const HeroSection = () => {
       
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-[#ADD8E6] text-sm mb-2">Scroll to explore</span>
-        <svg className="w-6 h-6 text-[#ADD8E6]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+        <span className="text-blue-300 text-sm mb-2">Scroll to explore</span>
+        <svg className="w-6 h-6 text-blue-300" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>
       </div>

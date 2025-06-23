@@ -25,28 +25,28 @@ const NavBar = () => {
       <div className="container px-4 mx-auto flex items-center justify-between">
         <a href="/" className="text-2xl font-light text-white flex items-center gap-3 nav-w-logo">
           <img 
-            src="/lovable-uploads/7a03f499-ac93-405d-b2ae-779ac3080daf.png" 
+            src="/lovable-uploads/5c54a95e-a93a-4249-8b80-55b8f898d2e7.png" 
             alt="No Analog Ventures Logo" 
             className="h-8 w-auto"
           />
           <span className="logo-no">No</span><span className="logo-analog">Analog</span>
-          <span className="text-[#ADD8E6] font-light">.Ventures</span>
+          <span className="text-emerald-400 font-light">.Ventures</span>
         </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#approach" className="text-gray-200 hover:text-[#ADD8E6] transition-colors">
+          <a href="#approach" className="text-gray-200 hover:text-blue-300 transition-colors">
             Our Approach
           </a>
-          <a href="#focus" className="text-gray-200 hover:text-[#ADD8E6] transition-colors">
+          <a href="#focus" className="text-gray-200 hover:text-blue-300 transition-colors">
             Focus Areas
           </a>
-          <a href="#partners" className="text-gray-200 hover:text-[#ADD8E6] transition-colors">
+          <a href="#partners" className="text-gray-200 hover:text-blue-300 transition-colors">
             Partnerships
           </a>
           <a 
             href="#contact" 
-            className="bg-[#ADD8E6] hover:bg-[#9FCCE6] text-slate-900 px-4 py-2 rounded-md transition-colors font-medium"
+            className="bg-blue-300 hover:bg-blue-400 text-slate-900 px-4 py-2 rounded-md transition-colors font-medium"
           >
             Contact Us
           </a>
@@ -71,28 +71,28 @@ const NavBar = () => {
           <div className="container px-4 py-4 mx-auto flex flex-col space-y-4">
             <a 
               href="#approach" 
-              className="text-gray-200 py-2 hover:text-[#ADD8E6] transition-colors"
+              className="text-gray-200 py-2 hover:text-blue-300 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Our Approach
             </a>
             <a 
               href="#focus" 
-              className="text-gray-200 py-2 hover:text-[#ADD8E6] transition-colors"
+              className="text-gray-200 py-2 hover:text-blue-300 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Focus Areas
             </a>
             <a 
               href="#partners" 
-              className="text-gray-200 py-2 hover:text-[#ADD8E6] transition-colors"
+              className="text-gray-200 py-2 hover:text-blue-300 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Partnerships
             </a>
             <a 
               href="#contact" 
-              className="bg-[#ADD8E6] hover:bg-[#9FCCE6] text-slate-900 py-2 px-4 rounded-md transition-colors inline-block font-medium"
+              className="bg-blue-300 hover:bg-blue-400 text-slate-900 py-2 px-4 rounded-md transition-colors inline-block font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact Us
