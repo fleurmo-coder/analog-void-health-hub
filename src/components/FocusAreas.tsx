@@ -45,7 +45,7 @@ const FocusAreas = () => {
               className="relative overflow-hidden rounded-lg group"
             >
               <div className="absolute inset-0 bg-gradient-to-b from-emerald-400/20 to-slate-900/90 z-10"></div>
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 h-full p-8 transition-all duration-300 relative z-20 group-hover:bg-white/15">
+              <div className="glass-card h-full p-8 transition-all duration-300 relative z-20 group-hover:bg-white/15">
                 <div className="p-3 bg-slate-800 rounded-full inline-block mb-6 text-emerald-400 border border-white/20">
                   {area.icon}
                 </div>
@@ -61,7 +61,7 @@ const FocusAreas = () => {
         </div>
 
         <div className="mt-20">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden border border-white/20">
+          <div className="glass-card rounded-lg overflow-hidden border border-white/20">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="p-8 md:p-12">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">Why Digital Health Is The Future</h3>
@@ -93,8 +93,8 @@ const FocusAreas = () => {
                 <div className="relative h-full">
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-transparent z-10"></div>
                   <img 
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
-                    alt="AI Digital Health Technology" 
+                    src="/lovable-uploads/fc5a9ccf-4c65-423a-9e3c-ffa2c13d61ae.png" 
+                    alt="Digital Health Technology with Healthcare Icons" 
                     className="w-full h-full object-cover"
                   />
                 </div>
