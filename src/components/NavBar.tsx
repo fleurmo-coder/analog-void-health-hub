@@ -19,29 +19,29 @@ const NavBar = () => {
     <nav
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled ? 'bg-noanalog-dark/90 backdrop-blur-md shadow-md py-3' : 'bg-transparent py-5'
+        isScrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-md py-3' : 'bg-transparent py-5'
       )}
     >
       <div className="container px-4 mx-auto flex items-center justify-between">
-        <a href="/" className="text-2xl font-bold text-white flex items-center gap-2">
-          <span className="text-noanalog-green">No</span>Analog
-          <span className="text-xs text-noanalog-green font-normal ml-1">Ventures</span>
+        <a href="/" className="text-2xl font-light text-white flex items-center gap-2 nav-w-logo">
+          <span className="logo-no">No</span><span className="logo-analog">Analog</span>
+          <span className="text-emerald-400 font-light">.Ventures</span>
         </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#approach" className="text-gray-300 hover:text-noanalog-green transition-colors">
+          <a href="#approach" className="text-gray-200 hover:text-emerald-400 transition-colors">
             Our Approach
           </a>
-          <a href="#focus" className="text-gray-300 hover:text-noanalog-green transition-colors">
+          <a href="#focus" className="text-gray-200 hover:text-emerald-400 transition-colors">
             Focus Areas
           </a>
-          <a href="#partners" className="text-gray-300 hover:text-noanalog-green transition-colors">
+          <a href="#partners" className="text-gray-200 hover:text-emerald-400 transition-colors">
             Partnerships
           </a>
           <a 
             href="#contact" 
-            className="bg-noanalog-green hover:bg-noanalog-green-dark text-black px-4 py-2 rounded-md transition-colors"
+            className="bg-emerald-400 hover:bg-emerald-500 text-slate-900 px-4 py-2 rounded-md transition-colors font-medium"
           >
             Contact Us
           </a>
@@ -62,32 +62,32 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-noanalog-dark border-t border-gray-800 animate-fade-in">
+        <div className="md:hidden bg-slate-900/95 backdrop-blur-md border-t border-gray-700 animate-fade-in">
           <div className="container px-4 py-4 mx-auto flex flex-col space-y-4">
             <a 
               href="#approach" 
-              className="text-gray-300 py-2 hover:text-noanalog-green transition-colors"
+              className="text-gray-200 py-2 hover:text-emerald-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Our Approach
             </a>
             <a 
               href="#focus" 
-              className="text-gray-300 py-2 hover:text-noanalog-green transition-colors"
+              className="text-gray-200 py-2 hover:text-emerald-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Focus Areas
             </a>
             <a 
               href="#partners" 
-              className="text-gray-300 py-2 hover:text-noanalog-green transition-colors"
+              className="text-gray-200 py-2 hover:text-emerald-400 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Partnerships
             </a>
             <a 
               href="#contact" 
-              className="bg-noanalog-green hover:bg-noanalog-green-dark text-black py-2 px-4 rounded-md transition-colors inline-block"
+              className="bg-emerald-400 hover:bg-emerald-500 text-slate-900 py-2 px-4 rounded-md transition-colors inline-block font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact Us

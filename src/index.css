@@ -52,8 +52,9 @@
   }
 
   body {
-    @apply bg-noanalog-dark text-foreground;
+    @apply bg-gradient-to-br from-slate-900 via-blue-900 to-emerald-500 text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
   }
   
   .glass {
@@ -70,5 +71,23 @@
   
   .subheading {
     @apply text-xl md:text-2xl text-muted-foreground mt-4;
+  }
+
+  .pitch-gradient {
+    background: linear-gradient(135deg, #1e293b 0%, #1e3a8a 30%, #059669 100%);
+  }
+
+  .nav-w-logo {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+  }
+
+  .nav-w-logo .logo-no {
+    font-weight: 700;
+  }
+
+  .nav-w-logo .logo-analog {
+    font-weight: 300;
   }
 }
