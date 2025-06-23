@@ -5,12 +5,12 @@ import { TrendingUp, AlertCircle, Lightbulb } from 'lucide-react';
 const DigitalHealthPromise = () => {
   const challenges = [
     {
-      icon: <TrendingUp className="w-12 h-12 text-red-400" />,
+      icon: <TrendingUp className="w-12 h-12 text-emerald-400" />,
       title: "Healthcare System Under Pressure",
       description: "Rising demand and costs coupled with a shrinking workforce are creating unprecedented strain on healthcare systems worldwide."
     },
     {
-      icon: <AlertCircle className="w-12 h-12 text-yellow-400" />,
+      icon: <AlertCircle className="w-12 h-12 text-emerald-400" />,
       title: "Innovation Gap",
       description: "While innovation is the only viable solution, over 90% of science-based digital health innovations fail to reach the market."
     },
@@ -26,7 +26,7 @@ const DigitalHealthPromise = () => {
       <div className="container px-4 mx-auto">
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="heading">
-            Digital Health Promise <span className="text-blue-400">Remains Unfulfilled</span>
+            Digital Health Promise <span className="text-emerald-400">Remains Unfulfilled</span>
           </h2>
           <p className="subheading">
             Despite tremendous scientific advances, the healthcare industry faces critical challenges that prevent digital innovations from reaching those who need them most
