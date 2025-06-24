@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Check, Heart, Users, BarChart } from 'lucide-react';
 
@@ -34,7 +33,7 @@ const OurApproach = () => {
             <span className="text-emerald-400">Our Approach</span>
           </h2>
           <p className="subheading">
-            We step in where others don't, providing end-to-end venture support and strategic guidance
+            We step in where others don't, providing end-to-end venture development, support and strategic guidance
           </p>
         </div>
         
