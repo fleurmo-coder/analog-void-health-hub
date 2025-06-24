@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Handshake } from 'lucide-react';
 
@@ -6,33 +5,15 @@ const PartnershipSection = () => {
   const partnerTypes = [
     {
       title: "Hospital Groups",
-      description: "We collaborate with forward-thinking hospitals and health systems to implement digital health solutions that enhance patient care and optimize operations.",
-      benefits: [
-        "Access to cutting-edge healthcare technologies",
-        "Custom solutions for specific clinical needs",
-        "Improved patient outcomes and experiences",
-        "Reduced operational costs through digital efficiency"
-      ]
+      description: "We collaborate with forward-thinking hospitals and health systems to implement digital health solutions that enhance patient care and optimize operations."
     },
     {
       title: "Development Partners",
-      description: "Our technical partnerships bring specialized expertise to our ventures, accelerating development timelines and enhancing solution capabilities.",
-      benefits: [
-        "Collaborative innovation opportunities",
-        "Access to healthcare market insights",
-        "Shared intellectual property development",
-        "Long-term strategic partnership potential"
-      ]
+      description: "Our technical partnerships bring specialized expertise to our ventures, accelerating development timelines and enhancing solution capabilities."
     },
     {
       title: "Industry Partners",
-      description: "We work with pharmaceutical companies, medical device manufacturers, and other healthcare organizations to develop complementary digital solutions.",
-      benefits: [
-        "Digital extension of existing products",
-        "New revenue streams through digital channels",
-        "Enhanced data collection and analytics capabilities",
-        "Increased patient engagement and adherence"
-      ]
+      description: "We work with pharmaceutical companies, medical device manufacturers, and other healthcare organizations to develop complementary digital solutions."
     },
   ];
 
@@ -57,16 +38,7 @@ const PartnershipSection = () => {
               <div className="h-2 bg-emerald-400"></div>
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-4 text-white">{partner.title}</h3>
-                <p className="text-gray-300 mb-6">{partner.description}</p>
-                <h4 className="text-emerald-400 font-semibold mb-3">Benefits:</h4>
-                <ul className="space-y-2">
-                  {partner.benefits.map((benefit, i) => (
-                    <li key={i} className="flex items-start">
-                      <span className="text-emerald-400 mr-2">•</span>
-                      <span className="text-gray-200">{benefit}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-gray-300">{partner.description}</p>
               </div>
             </div>
           ))}
