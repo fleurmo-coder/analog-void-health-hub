@@ -74,15 +74,15 @@ const HeroSection = () => {
               <div className="text-gray-200 mt-2">Combined years experience in venture building</div>
             </div>
           </div>
-          
-          {/* Scroll indicator positioned below middle card */}
-          <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-8 flex flex-col items-center justify-center animate-bounce pointer-events-none">
-            <span className="text-white text-sm mb-2 text-center bg-slate-900/80 px-3 py-1 rounded-full">Scroll to explore</span>
-            <svg className="w-6 h-6 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-            </svg>
-          </div>
         </div>
+      </div>
+
+      {/* Scroll indicator positioned below stats and centered on page */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce pointer-events-none">
+        <span className="text-white text-sm mb-2 text-center bg-slate-900/80 px-3 py-1 rounded-full">Scroll to explore</span>
+        <svg className="w-6 h-6 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
       </div>
     </div>
   );
