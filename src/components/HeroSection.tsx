@@ -59,15 +59,23 @@ const HeroSection = () => {
         </div>
         
         {/* Hero Stats */}
-        <div className="mt-24 w-full max-w-4xl">
+        <div className="mt-24 w-full max-w-4xl relative">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="glass-card p-8 rounded-lg border border-white/20">
               <div className="text-blue-300 text-4xl font-bold">4</div>
               <div className="text-gray-200 mt-2">In-or-near portfolio ventures</div>
             </div>
-            <div className="glass-card p-8 rounded-lg border border-white/20">
+            <div className="glass-card p-8 rounded-lg border border-white/20 relative">
               <div className="text-blue-300 text-4xl font-bold">60</div>
               <div className="text-gray-200 mt-2">Venture leads in the pipeline</div>
+              
+              {/* Scroll indicator positioned over middle card */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center animate-bounce pointer-events-none">
+                <span className="text-white text-sm mb-2 text-center bg-slate-900/80 px-3 py-1 rounded-full">Scroll to explore</span>
+                <svg className="w-6 h-6 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                  <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+              </div>
             </div>
             <div className="glass-card p-8 rounded-lg border border-white/20">
               <div className="text-blue-300 text-4xl font-bold">50+</div>
@@ -75,14 +83,6 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </div>
-      
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce">
-        <span className="text-blue-300 text-sm mb-2 text-center">Scroll to explore</span>
-        <svg className="w-6 h-6 text-blue-300 mx-auto" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-        </svg>
       </div>
     </div>
   );
