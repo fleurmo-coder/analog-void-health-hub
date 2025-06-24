@@ -1,12 +1,11 @@
-
 import React from 'react';
-import { Heart, BarChart, Users, Check } from 'lucide-react';
+import { Heart, BarChart, Users } from 'lucide-react';
 
 const FocusAreas = () => {
   const areas = [
     {
       icon: <Heart className="w-12 h-12" />,
-      title: "Remote Patient Monitoring",
+      title: "Primary and Home Care",
       description: "Developing technologies that enable healthcare providers to monitor patients outside of conventional clinical settings, improving access to care while reducing costs."
     },
     {
@@ -16,13 +15,8 @@ const FocusAreas = () => {
     },
     {
       icon: <Users className="w-12 h-12" />,
-      title: "Digital Therapeutics",
+      title: "Pharma (Biotech)",
       description: "Creating evidence-based therapeutic interventions driven by high-quality software programs to prevent, manage, or treat a medical disorder or disease."
-    },
-    {
-      icon: <Check className="w-12 h-12" />,
-      title: "Healthcare Workflow Optimization",
-      description: "Building solutions that streamline clinical workflows, reduce administrative burden, and improve healthcare delivery efficiency."
     }
   ];
 
