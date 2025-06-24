@@ -22,7 +22,7 @@ const HeroSection = () => {
           {/* Large Company Name with Logo */}
           <div className="mb-8 flex flex-col items-center">
             <img 
-              src="/lovable-uploads/5c54a95e-a93a-4249-8b80-55b8f898d2e7.png" 
+              src="/lovable-uploads/35bb0d07-c38e-4e29-bab2-f163d8bab4f7.png" 
               alt="No Analog Ventures Logo" 
               className="h-16 md:h-24 lg:h-32 w-auto mb-6"
             />

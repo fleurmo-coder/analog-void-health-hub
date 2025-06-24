@@ -25,7 +25,7 @@ const NavBar = () => {
       <div className="container px-4 mx-auto flex items-center justify-between">
         <a href="/" className="text-2xl font-light text-white flex items-center gap-3 nav-w-logo">
           <img 
-            src="/lovable-uploads/5c54a95e-a93a-4249-8b80-55b8f898d2e7.png" 
+            src="/lovable-uploads/35bb0d07-c38e-4e29-bab2-f163d8bab4f7.png" 
             alt="No Analog Ventures Logo" 
             className="h-8 w-auto"
           />
