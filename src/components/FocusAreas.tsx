@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Heart, BarChart, Users } from 'lucide-react';
 
@@ -32,7 +33,7 @@ const FocusAreas = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
           {areas.map((area, index) => (
             <div 
               key={index} 
