@@ -29,8 +29,8 @@ const NavBar = () => {
             alt="No Analog Ventures Logo" 
             className="h-8 w-auto"
           />
-          <span className="logo-no">No</span><span className="logo-analog">Analog</span>
-          <span className="text-emerald-400 font-light">.Ventures</span>
+          <span className="logo-no">No</span> <span className="logo-analog">Analog</span>
+          <span className="text-blue-300 font-light">.Ventures</span>
         </a>
 
         {/* Desktop Navigation */}
