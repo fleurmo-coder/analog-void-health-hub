@@ -34,7 +34,7 @@ const FocusAreas = () => {
             Focus <span className="text-emerald-400">Areas</span>
           </h2>
           <p className="subheading">
-            We target high-growth sectors in healthcare where digital innovation can create the most significant impact
+            We target decision support for high-growth sectors in healthcare where digital innovation can create the most significant impact
           </p>
         </div>
 
