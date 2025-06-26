@@ -5,8 +5,8 @@ import HeroSection from '@/components/HeroSection';
 import DigitalHealthPromise from '@/components/DigitalHealthPromise';
 import OurApproach from '@/components/OurApproach';
 import FocusAreas from '@/components/FocusAreas';
-import TeamOverview from '@/components/TeamOverview';
 import PartnershipSection from '@/components/PartnershipSection';
+import TeamOverview from '@/components/TeamOverview';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -18,8 +18,8 @@ const Index = () => {
       <DigitalHealthPromise />
       <OurApproach />
       <FocusAreas />
-      <TeamOverview />
       <PartnershipSection />
+      <TeamOverview />
       <ContactSection />
       <Footer />
     </div>
