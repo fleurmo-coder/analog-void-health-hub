@@ -4,19 +4,19 @@ import { Users, UserCheck, Briefcase } from 'lucide-react';
 
 const TeamOverview = () => {
   const teamMembers = [
-    'CEO',
-    'CFO', 
-    'Venture Builder',
-    'Venture Builder',
-    'Partnerships',
-    'Technology Specialist',
-    'Investment Analyst'
+    { role: 'CEO', name: 'WILLEM FONTIJN' },
+    { role: 'CFO', name: 'Confidential' },
+    { role: 'Venture Builder', name: 'FLEUR MOORLAG' },
+    { role: 'Venture Builder', name: 'WESSEL LIGTENBERG' },
+    { role: 'Partnerships', name: 'TBD' },
+    { role: 'Technology Specialist', name: 'VALERIA GOTTARDO' },
+    { role: 'Investment Analyst', name: 'SEWA OJUTIKU' }
   ];
 
   const advisors = [
-    'Medical Expert',
-    'Venture Partner',
-    'Venture Partner'
+    { role: 'Medical Expert', name: 'BART GEERTS' },
+    { role: 'Venture Partner', name: 'TBD' },
+    { role: 'Venture Partner', name: 'TBD' }
   ];
 
   return (
@@ -45,15 +45,18 @@ const TeamOverview = () => {
               </div>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {teamMembers.map((role, index) => (
+            <div className="grid grid-cols-1 gap-3">
+              {teamMembers.map((member, index) => (
                 <div 
                   key={index}
                   className="bg-slate-800/60 p-4 rounded-lg border border-white/10 hover:border-blue-300/30 transition-colors"
                 >
-                  <div className="flex items-center">
-                    <Briefcase className="w-4 h-4 text-blue-300 mr-2 flex-shrink-0" />
-                    <span className="text-gray-200 text-sm font-medium">{role}</span>
+                  <div className="flex items-start">
+                    <Briefcase className="w-4 h-4 text-blue-300 mr-3 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <div className="text-gray-200 text-sm font-medium">{member.role}</div>
+                      <div className="text-blue-300 text-xs font-semibold mt-1">{member.name}</div>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -73,14 +76,17 @@ const TeamOverview = () => {
             </div>
             
             <div className="space-y-3">
-              {advisors.map((role, index) => (
+              {advisors.map((advisor, index) => (
                 <div 
                   key={index}
                   className="bg-slate-800/60 p-4 rounded-lg border border-white/10 hover:border-emerald-400/30 transition-colors"
                 >
-                  <div className="flex items-center">
-                    <UserCheck className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" />
-                    <span className="text-gray-200 text-sm font-medium">{role}</span>
+                  <div className="flex items-start">
+                    <UserCheck className="w-4 h-4 text-emerald-400 mr-3 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <div className="text-gray-200 text-sm font-medium">{advisor.role}</div>
+                      <div className="text-emerald-400 text-xs font-semibold mt-1">{advisor.name}</div>
+                    </div>
                   </div>
                 </div>
               ))}
