@@ -8,15 +8,15 @@ const TeamOverview = () => {
     { role: 'CFO', name: 'Confidential' },
     { role: 'Venture Builder', name: 'FLEUR MOORLAG' },
     { role: 'Venture Builder', name: 'WESSEL LIGTENBERG' },
-    { role: 'Partnerships', name: 'TBD' },
+    { role: 'Partnerships', name: 'Confidential' },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO' },
     { role: 'Investment Analyst', name: 'SEWA OJUTIKU' }
   ];
 
   const advisors = [
     { role: 'Medical Expert', name: 'BART GEERTS' },
-    { role: 'Venture Partner', name: 'TBD' },
-    { role: 'Venture Partner', name: 'TBD' }
+    { role: 'Venture Partner', name: 'Confidential' },
+    { role: 'Venture Partner', name: 'Confidential' }
   ];
 
   return (
@@ -75,14 +75,14 @@ const TeamOverview = () => {
               </div>
             </div>
             
-            <div className="space-y-3">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               {advisors.map((advisor, index) => (
                 <div 
                   key={index}
                   className="bg-slate-800/60 p-4 rounded-lg border border-white/10 hover:border-emerald-400/30 transition-colors"
                 >
-                  <div className="flex items-start">
-                    <UserCheck className="w-4 h-4 text-emerald-400 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="flex flex-col items-center text-center">
+                    <UserCheck className="w-4 h-4 text-emerald-400 mb-2 flex-shrink-0" />
                     <div>
                       <div className="text-gray-200 text-sm font-medium">{advisor.role}</div>
                       <div className="text-emerald-400 text-xs font-semibold mt-1">{advisor.name}</div>
@@ -91,27 +91,29 @@ const TeamOverview = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
 
-            {/* Experience Highlights */}
-            <div className="mt-8 pt-6 border-t border-white/10">
-              <h4 className="text-lg font-semibold text-white mb-4">Combined Expertise</h4>
-              <div className="grid grid-cols-1 gap-3">
-                <div className="flex items-center text-sm text-gray-300">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                  <span>3x Serial Entrepreneurs</span>
-                </div>
-                <div className="flex items-center text-sm text-gray-300">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                  <span>2x Medical Doctors (GP, Medical Specialist)</span>
-                </div>
-                <div className="flex items-center text-sm text-gray-300">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                  <span>4x Corporate Experience</span>
-                </div>
-                <div className="flex items-center text-sm text-gray-300">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                  <span>30+ Years Venture Building</span>
-                </div>
+        {/* Combined Expertise - Now separate section */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <div className="glass-card p-8 rounded-lg border border-white/20">
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Combined Expertise</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex items-center text-sm text-gray-300">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                <span>3x Serial Entrepreneurs</span>
+              </div>
+              <div className="flex items-center text-sm text-gray-300">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                <span>2x Medical Doctors (GP, Medical Specialist)</span>
+              </div>
+              <div className="flex items-center text-sm text-gray-300">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                <span>4x Corporate Experience</span>
+              </div>
+              <div className="flex items-center text-sm text-gray-300">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
+                <span>30+ Years Venture Building</span>
               </div>
             </div>
           </div>
