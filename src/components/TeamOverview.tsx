@@ -45,14 +45,14 @@ const TeamOverview = () => {
               </div>
             </div>
             
-            <div className="grid grid-cols-1 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
               {teamMembers.map((member, index) => (
                 <div 
                   key={index}
                   className="bg-slate-800/60 p-4 rounded-lg border border-white/10 hover:border-blue-300/30 transition-colors"
                 >
-                  <div className="flex items-start">
-                    <Briefcase className="w-4 h-4 text-blue-300 mr-3 mt-0.5 flex-shrink-0" />
+                  <div className="flex flex-col items-center text-center">
+                    <Briefcase className="w-4 h-4 text-blue-300 mb-2 flex-shrink-0" />
                     <div>
                       <div className="text-gray-200 text-sm font-medium">{member.role}</div>
                       <div className="text-blue-300 text-xs font-semibold mt-1">{member.name}</div>
