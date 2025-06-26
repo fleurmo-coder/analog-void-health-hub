@@ -6,7 +6,7 @@ const FocusAreas = () => {
   const areas = [
     {
       icon: <Heart className="w-12 h-12" />,
-      title: "Primary and Home Care",
+      title: "Primary & Home Care",
       description: "Developing technologies that enable healthcare providers to monitor patients outside of conventional clinical settings, improving access to care while reducing costs."
     },
     {
