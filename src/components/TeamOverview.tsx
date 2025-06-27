@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -38,7 +39,7 @@ const TeamOverview = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Team</h3>
-                <p className="text-gray-300">9 dedicated members</p>
+                <p className="text-gray-300">7 dedicated core members and <span className="text-emerald-400">3 affiliates</span></p>
               </div>
             </div>
             
@@ -89,3 +90,4 @@ const TeamOverview = () => {
 };
 
 export default TeamOverview;
+
