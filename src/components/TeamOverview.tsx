@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -7,7 +6,7 @@ const TeamOverview = () => {
   const teamMembers = [
     { role: 'CEO', name: 'WILLEM FONTIJN', isAffiliate: false, image: '/lovable-uploads/8a3c18d3-2707-40cc-961a-53b60c9c2138.png' },
     { role: 'CFO', name: 'Confidential', isAffiliate: false },
-    { role: 'Venture Builder', name: 'FLEUR MOORLAG', isAffiliate: false },
+    { role: 'Venture Builder', name: 'FLEUR MOORLAG', isAffiliate: false, image: '/lovable-uploads/971c3039-56b8-4a74-bf01-21e916c08fb9.png' },
     { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false },
     { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false },
