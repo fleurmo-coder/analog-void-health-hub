@@ -62,7 +62,8 @@ const ContactSection = () => {
                 <h4 className="text-[#ADD8E6] font-medium mb-2">Address</h4>
                 <p className="text-gray-400">
                   Frankrijkstraat 114<br />
-                  5622AH Eindhoven
+                  5622AH<br />
+                  Eindhoven
                 </p>
               </div>
               <div>
