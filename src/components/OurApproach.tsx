@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Check, Heart, Users, BarChart } from 'lucide-react';
 
@@ -57,7 +56,7 @@ const OurApproach = () => {
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">Translating Science to Solutions</h3>
               <p className="text-gray-300 mb-6">
                 No Analog Ventures bridges the gap between scientific innovation and practical healthcare solutions. 
-                We identify promising research, technologies, and clinical advances to develop products and services that make a real difference in healthcare delivery, usability and patient outcomes.
+                We identify promising research, technologies, and clinical advances to develop products and services that make a real difference in healthcare delivery, usability, and patient outcomes.
               </p>
               <div className="space-y-3">
                 {["Identify scientific breakthroughs with commercial potential", 
