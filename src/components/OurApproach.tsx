@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Check, Heart, Users, BarChart } from 'lucide-react';
 
@@ -17,12 +16,12 @@ const OurApproach = () => {
     {
       icon: <Users className="w-12 h-12 text-emerald-400" />,
       title: "Development and End-to-End Support",
-      description: "From concept to commercialization, we provide comprehensive support through funding, strategy development, and market entry."
+      description: "From concept to commercialization, we provide comprehensive support through funding, strategy, development, and market entry."
     },
     {
       icon: <Check className="w-12 h-12 text-emerald-400" />,
       title: "Focus on High-Growth Areas",
-      description: "We strategically target underserved sectors in healthcare with significant growth potential and opportunities for innovation."
+      description: "We strategically target sectors in healthcare with significant growth potential and opportunities for digital innovation."
     }
   ];
 
