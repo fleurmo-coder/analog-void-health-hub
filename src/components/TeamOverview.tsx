@@ -1,10 +1,11 @@
 
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const TeamOverview = () => {
   const teamMembers = [
-    { role: 'CEO', name: 'WILLEM FONTIJN', isAffiliate: false },
+    { role: 'CEO', name: 'WILLEM FONTIJN', isAffiliate: false, image: '/lovable-uploads/8a3c18d3-2707-40cc-961a-53b60c9c2138.png' },
     { role: 'CFO', name: 'Confidential', isAffiliate: false },
     { role: 'Venture Builder', name: 'FLEUR MOORLAG', isAffiliate: false },
     { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false },
@@ -52,10 +53,21 @@ const TeamOverview = () => {
                   }`}
                 >
                   <div className="flex flex-col items-center text-center">
-                    {member.isAffiliate ? (
-                      <UserCheck className="w-4 h-4 text-emerald-400 mb-2 flex-shrink-0" />
+                    {member.image ? (
+                      <Avatar className="w-12 h-12 mb-3">
+                        <AvatarImage src={member.image} alt={member.name} />
+                        <AvatarFallback className="bg-slate-700 text-white">
+                          {member.name.split(' ').map(n => n[0]).join('')}
+                        </AvatarFallback>
+                      </Avatar>
                     ) : (
-                      <Briefcase className="w-4 h-4 text-blue-300 mb-2 flex-shrink-0" />
+                      <>
+                        {member.isAffiliate ? (
+                          <UserCheck className="w-4 h-4 text-emerald-400 mb-2 flex-shrink-0" />
+                        ) : (
+                          <Briefcase className="w-4 h-4 text-blue-300 mb-2 flex-shrink-0" />
+                        )}
+                      </>
                     )}
                     <div>
                       <div className="text-gray-200 text-sm font-medium">{member.role}</div>
