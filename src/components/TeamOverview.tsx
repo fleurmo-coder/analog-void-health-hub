@@ -12,7 +12,7 @@ const TeamOverview = () => {
     { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png' },
     { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png' },
-    { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true },
+    { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true, image: '/lovable-uploads/c9284be7-9e6a-49c5-9a56-160d92c1e9f3.png' },
     { role: 'Venture Partner (x2)', name: 'Confidential', isAffiliate: true }
   ];
 
