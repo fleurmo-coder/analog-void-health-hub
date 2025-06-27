@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -7,7 +8,7 @@ const TeamOverview = () => {
     { role: 'CEO', name: 'WILLEM FONTIJN', isAffiliate: false, image: '/lovable-uploads/8a3c18d3-2707-40cc-961a-53b60c9c2138.png' },
     { role: 'CFO', name: 'Confidential', isAffiliate: false },
     { role: 'Venture Builder', name: 'FLEUR MOORLAG', isAffiliate: false, image: '/lovable-uploads/971c3039-56b8-4a74-bf01-21e916c08fb9.png', linkedInUrl: 'https://www.linkedin.com/in/fleurmoorlag/' },
-    { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false, image: '/lovable-uploads/e5a8ef7e-906d-4c64-8954-35917d8391c8.png' },
+    { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false, image: '/lovable-uploads/e5a8ef7e-906d-4c64-8954-35917d8391c8.png', linkedInUrl: 'https://www.linkedin.com/in/wesselligtenberg/' },
     { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png', linkedInUrl: 'https://www.linkedin.com/in/valeriagottardo/' },
     { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png' },
