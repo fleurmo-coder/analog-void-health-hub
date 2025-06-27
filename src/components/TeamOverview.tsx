@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -39,7 +37,7 @@ const TeamOverview = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Team</h3>
-                <p className="text-gray-300">7 dedicated core members and <span className="text-emerald-400">3 affiliates</span></p>
+                <p className="text-gray-300"><span className="text-blue-300">7 dedicated core members</span> and <span className="text-emerald-400">3 affiliates</span></p>
               </div>
             </div>
             
@@ -50,7 +48,7 @@ const TeamOverview = () => {
                   className={`p-4 rounded-lg border transition-colors ${
                     member.isAffiliate 
                       ? 'bg-emerald-800/60 border-emerald-400/20 hover:border-emerald-400/40' 
-                      : 'bg-slate-800/60 border-white/10 hover:border-blue-300/30'
+                      : 'bg-blue-800/60 border-blue-400/20 hover:border-blue-400/40'
                   }`}
                 >
                   <div className="flex flex-col items-center text-center">
@@ -90,4 +88,3 @@ const TeamOverview = () => {
 };
 
 export default TeamOverview;
-
