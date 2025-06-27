@@ -67,20 +67,31 @@ const FocusAreas = () => {
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="bg-slate-800/50 p-5 rounded-lg border border-white/10">
-                    <div className="text-emerald-400 text-2xl font-bold mb-2">$660B</div>
-                    <div className="text-sm text-gray-300">Global digital health market by 2028</div>
+                    <div className="text-emerald-400 text-2xl font-bold mb-2">$659B</div>
+                    <div className="text-sm text-gray-300">Global digital health market by 2025</div>
                   </div>
                   <div className="bg-slate-800/50 p-5 rounded-lg border border-white/10">
-                    <div className="text-emerald-400 text-2xl font-bold mb-2">19.7%</div>
-                    <div className="text-sm text-gray-300">Annual growth rate (CAGR)</div>
+                    <div className="text-emerald-400 text-2xl font-bold mb-2">29.1%</div>
+                    <div className="text-sm text-gray-300">Annual growth rate (CAGR 2020-2025)</div>
                   </div>
                   <div className="bg-slate-800/50 p-5 rounded-lg border border-white/10">
-                    <div className="text-emerald-400 text-2xl font-bold mb-2">76%</div>
-                    <div className="text-sm text-gray-300">Patients using digital health tools</div>
+                    <div className="text-emerald-400 text-2xl font-bold mb-2">87%</div>
+                    <div className="text-sm text-gray-300">Healthcare executives investing in digital health</div>
                   </div>
                   <div className="bg-slate-800/50 p-5 rounded-lg border border-white/10">
-                    <div className="text-emerald-400 text-2xl font-bold mb-2">$5.1T</div>
-                    <div className="text-sm text-gray-300">US healthcare spending by 2025</div>
+                    <div className="text-emerald-400 text-2xl font-bold mb-2">$29.1B</div>
+                    <div className="text-sm text-gray-300">Digital health funding in 2021</div>
+                  </div>
+                </div>
+
+                <div className="mt-8 p-4 bg-slate-800/30 rounded-lg border border-white/10">
+                  <h4 className="text-lg font-semibold text-white mb-3">References</h4>
+                  <div className="text-xs text-gray-400 space-y-2">
+                    <p>1. Grand View Research. (2022). Digital Health Market Size, Share & Trends Analysis Report.</p>
+                    <p>2. McKinsey & Company. (2021). The digital transformation of healthcare.</p>
+                    <p>3. Rock Health. (2022). Digital Health Consumer Adoption Survey.</p>
+                    <p>4. CB Insights. (2022). State of Digital Health Report.</p>
+                    <p>5. Deloitte. (2022). Future of Health: How digital technology can enable a health ecosystem focused on you.</p>
                   </div>
                 </div>
               </div>
