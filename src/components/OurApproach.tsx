@@ -7,7 +7,7 @@ const OurApproach = () => {
     {
       icon: <Heart className="w-12 h-12 text-emerald-400" />,
       title: "Patient-Centered Innovation",
-      description: "We develop solutions that prioritize improving patient outcomes and experiences, making healthcare more accessible, efficient, and personal."
+      description: "We develop solutions that prioritize improving patient outcomes and experiences, making healthcare more accessible, cost-effective, and personalized."
     },
     {
       icon: <BarChart className="w-12 h-12 text-emerald-400" />,
