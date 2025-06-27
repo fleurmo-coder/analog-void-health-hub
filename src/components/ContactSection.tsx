@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -66,8 +67,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="text-[#ADD8E6] font-medium mb-2">Email</h4>
-                <a href="mailto:info@noanalogventures.com" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
-                  info@noanalogventures.com
+                <a href="mailto:info@noanalog.com" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
+                  info@noanalog.com
                 </a>
               </div>
               <div>
