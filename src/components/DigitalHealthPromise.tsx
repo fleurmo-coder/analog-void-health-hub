@@ -29,7 +29,7 @@ const DigitalHealthPromise = () => {
             Digital Health Promise <span className="text-emerald-400">Remains Unfulfilled</span>
           </h2>
           <p className="subheading">
-            Despite tremendous scientific advances, the healthcare industry faces critical challenges that prevent digital innovations from reaching those who need them most
+            Despite tremendous scientific advances, the healthcare industry faces critical challenges that prevent digital innovations from reaching the patient
           </p>
         </div>
 
