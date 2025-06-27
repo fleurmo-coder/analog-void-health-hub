@@ -15,7 +15,7 @@ const Footer = () => {
                 className="h-8 w-auto"
               />
               <span className="logo-no">No</span> <span className="logo-analog">Analog</span>
-              <span className="text-blue-300 font-light">.Ventures</span>
+              <span className="text-blue-300 font-light">. Ventures</span>
             </a>
             <p className="text-gray-300 mb-6">
               Building the future of digital health through strategic innovation, 
