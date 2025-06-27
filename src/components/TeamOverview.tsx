@@ -38,7 +38,7 @@ const TeamOverview = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Team</h3>
-                <p className="text-gray-300"><span className="text-blue-300">7 dedicated core members</span> and <span className="text-emerald-400">3 affiliates</span></p>
+                <p className="text-gray-300">7 dedicated core members and 3 affiliates</p>
               </div>
             </div>
             
