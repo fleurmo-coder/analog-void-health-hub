@@ -63,14 +63,14 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="glass-card p-8 rounded-lg border border-white/20">
               <div className="text-blue-300 text-4xl font-bold">4</div>
-              <div className="text-gray-200 mt-2">In-or-near portfolio ventures</div>
+              <div className="text-gray-200 mt-2">Near portfolio ventures</div>
             </div>
             <div className="glass-card p-8 rounded-lg border border-white/20">
               <div className="text-blue-300 text-4xl font-bold">60</div>
-              <div className="text-gray-200 mt-2">Venture leads in the pipeline</div>
+              <div className="text-gray-200 mt-2">Venture propositions in the pipeline</div>
             </div>
             <div className="glass-card p-8 rounded-lg border border-white/20">
-              <div className="text-blue-300 text-4xl font-bold">50+</div>
+              <div className="text-blue-300 text-4xl font-bold">30+</div>
               <div className="text-gray-200 mt-2">Combined years experience in venture building</div>
             </div>
           </div>
