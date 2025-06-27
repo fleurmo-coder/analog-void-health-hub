@@ -10,7 +10,7 @@ const TeamOverview = () => {
     { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false, image: '/lovable-uploads/e5a8ef7e-906d-4c64-8954-35917d8391c8.png' },
     { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png' },
-    { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false },
+    { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png' },
     { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true },
     { role: 'Venture Partner (x2)', name: 'Confidential', isAffiliate: true }
   ];
