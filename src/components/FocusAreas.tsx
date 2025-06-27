@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Heart, BarChart, Users } from 'lucide-react';
 
@@ -7,17 +6,17 @@ const FocusAreas = () => {
     {
       icon: <Heart className="w-12 h-12" />,
       title: "Primary & Home Care",
-      description: "Developing technologies that enable healthcare providers to monitor patients outside of conventional clinical settings, improving access to care while reducing costs."
+      description: "Developing digital technologies to serve patients outside of hospital settings, improving safety and access to care while reducing costs and inconvenience."
     },
     {
       icon: <BarChart className="w-12 h-12" />,
       title: "AI Diagnostics & Imaging",
-      description: "Leveraging artificial intelligence to improve diagnostic accuracy, speed, and accessibility across various medical specialties."
+      description: "Leveraging data science and artificial intelligence to improve stratification, diagnostic accuracy, speed, and accessibility across various medical specialties."
     },
     {
       icon: <Users className="w-12 h-12" />,
       title: "Pharma (Biotech)",
-      description: "Creating evidence-based therapeutic interventions driven by high-quality software programs to prevent, manage, or treat a medical disorder or disease."
+      description: "Creating evidence-based digital tools for pharma inclusing software programs to prevent, manage, or treat a medical conditions."
     }
   ];
 
