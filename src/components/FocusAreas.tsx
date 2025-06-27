@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Heart, BarChart, Users } from 'lucide-react';
 
@@ -16,7 +17,7 @@ const FocusAreas = () => {
     {
       icon: <Users className="w-12 h-12" />,
       title: "Pharma (Biotech)",
-      description: "Creating evidence-based digital tools for pharma inclusing software programs to prevent, manage, or treat a medical conditions."
+      description: "Creating evidence-based digital tools for pharma including software programs to prevent, manage, or treat medical conditions."
     }
   ];
 
