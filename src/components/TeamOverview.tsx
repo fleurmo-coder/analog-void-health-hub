@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -48,7 +49,7 @@ const TeamOverview = () => {
                   className={`p-4 rounded-lg border transition-colors ${
                     member.isAffiliate 
                       ? 'bg-emerald-800/60 border-emerald-400/20 hover:border-emerald-400/40' 
-                      : 'bg-blue-800/60 border-blue-400/20 hover:border-blue-400/40'
+                      : 'bg-slate-700/40 border-slate-500/30 hover:border-slate-400/50'
                   }`}
                 >
                   <div className="flex flex-col items-center text-center">
