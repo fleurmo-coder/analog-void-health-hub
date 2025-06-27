@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -12,7 +11,7 @@ const TeamOverview = () => {
     { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png' },
     { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png' },
-    { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true, image: '/lovable-uploads/c9284be7-9e6a-49c5-9a56-160d92c1e9f3.png' },
+    { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true, image: '/lovable-uploads/c9284be7-9e6a-49c5-9a56-160d92c1e9f3.png', linkedInUrl: 'https://www.linkedin.com/in/bfgeerts/' },
     { role: 'Venture Partner (x2)', name: 'Confidential', isAffiliate: true }
   ];
 
@@ -43,15 +42,8 @@ const TeamOverview = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
-              {teamMembers.map((member, index) => (
-                <div 
-                  key={index}
-                  className={`p-4 rounded-lg border transition-colors ${
-                    member.isAffiliate 
-                      ? 'bg-emerald-800/60 border-emerald-400/20 hover:border-emerald-400/40' 
-                      : 'bg-slate-700/40 border-slate-500/30 hover:border-slate-400/50'
-                  }`}
-                >
+              {teamMembers.map((member, index) => {
+                const MemberContent = () => (
                   <div className="flex flex-col items-center text-center">
                     {member.image ? (
                       <Avatar className="w-12 h-12 mb-3">
@@ -78,8 +70,32 @@ const TeamOverview = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+
+                return (
+                  <div 
+                    key={index}
+                    className={`p-4 rounded-lg border transition-colors ${
+                      member.isAffiliate 
+                        ? 'bg-emerald-800/60 border-emerald-400/20 hover:border-emerald-400/40' 
+                        : 'bg-slate-700/40 border-slate-500/30 hover:border-slate-400/50'
+                    }`}
+                  >
+                    {member.linkedInUrl ? (
+                      <a 
+                        href={member.linkedInUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block hover:opacity-80 transition-opacity"
+                      >
+                        <MemberContent />
+                      </a>
+                    ) : (
+                      <MemberContent />
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
