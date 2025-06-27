@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -36,7 +37,7 @@ const TeamOverview = () => {
                 <Users className="w-8 h-8 text-blue-300" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white">Core Team</h3>
+                <h3 className="text-2xl font-bold text-white">Team</h3>
                 <p className="text-gray-300">9 dedicated members</p>
               </div>
             </div>
