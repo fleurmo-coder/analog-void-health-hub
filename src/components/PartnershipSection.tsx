@@ -15,6 +15,10 @@ const PartnershipSection = () => {
       title: "Industry Partners",
       description: "We work with pharmaceutical companies, medical device manufacturers, and other healthcare organizations to develop complementary digital solutions."
     },
+    {
+      title: "Funding Partners",
+      description: "We partner with investors, venture capital firms, and funding organizations that share our vision for transforming healthcare through innovative digital solutions."
+    },
   ];
 
   return (
