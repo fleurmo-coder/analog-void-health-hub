@@ -4,15 +4,15 @@ import { Users, UserCheck, Briefcase } from 'lucide-react';
 
 const TeamOverview = () => {
   const teamMembers = [
-    { role: 'CEO', name: 'WILLEM FONTIJN' },
-    { role: 'CFO', name: 'Confidential' },
-    { role: 'Venture Builder', name: 'FLEUR MOORLAG' },
-    { role: 'Venture Builder', name: 'WESSEL LIGTENBERG' },
-    { role: 'Partnerships', name: 'Confidential' },
-    { role: 'Technology Specialist', name: 'VALERIA GOTTARDO' },
-    { role: 'Investment Analyst', name: 'SEWA OJUTIKU' },
-    { role: 'Medical Expert', name: 'BART GEERTS' },
-    { role: 'Venture Partner (x2)', name: 'Confidential' }
+    { role: 'CEO', name: 'WILLEM FONTIJN', isAffiliate: false },
+    { role: 'CFO', name: 'Confidential', isAffiliate: false },
+    { role: 'Venture Builder', name: 'FLEUR MOORLAG', isAffiliate: false },
+    { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false },
+    { role: 'Partnerships', name: 'Confidential', isAffiliate: false },
+    { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false },
+    { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false },
+    { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true },
+    { role: 'Venture Partner (x2)', name: 'Confidential', isAffiliate: true }
   ];
 
   return (
@@ -45,13 +45,25 @@ const TeamOverview = () => {
               {teamMembers.map((member, index) => (
                 <div 
                   key={index}
-                  className="bg-slate-800/60 p-4 rounded-lg border border-white/10 hover:border-blue-300/30 transition-colors"
+                  className={`p-4 rounded-lg border transition-colors ${
+                    member.isAffiliate 
+                      ? 'bg-emerald-800/60 border-emerald-400/20 hover:border-emerald-400/40' 
+                      : 'bg-slate-800/60 border-white/10 hover:border-blue-300/30'
+                  }`}
                 >
                   <div className="flex flex-col items-center text-center">
-                    <Briefcase className="w-4 h-4 text-blue-300 mb-2 flex-shrink-0" />
+                    {member.isAffiliate ? (
+                      <UserCheck className="w-4 h-4 text-emerald-400 mb-2 flex-shrink-0" />
+                    ) : (
+                      <Briefcase className="w-4 h-4 text-blue-300 mb-2 flex-shrink-0" />
+                    )}
                     <div>
                       <div className="text-gray-200 text-sm font-medium">{member.role}</div>
-                      <div className="text-blue-300 text-xs font-semibold mt-1">{member.name}</div>
+                      <div className={`text-xs font-semibold mt-1 ${
+                        member.isAffiliate ? 'text-emerald-400' : 'text-blue-300'
+                      }`}>
+                        {member.name}
+                      </div>
                     </div>
                   </div>
                 </div>
