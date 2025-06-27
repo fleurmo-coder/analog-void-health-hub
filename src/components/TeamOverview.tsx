@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 
@@ -15,7 +14,7 @@ const TeamOverview = () => {
 
   const advisors = [
     { role: 'Medical Expert', name: 'BART GEERTS' },
-    { role: 'Venture Partner', name: 'Confidential' }
+    { role: 'Venture Partner (x2)', name: 'Confidential' }
   ];
 
   return (
