@@ -15,7 +15,6 @@ const TeamOverview = () => {
 
   const advisors = [
     { role: 'Medical Expert', name: 'BART GEERTS' },
-    { role: 'Venture Partner', name: 'Confidential' },
     { role: 'Venture Partner', name: 'Confidential' }
   ];
 
@@ -63,19 +62,19 @@ const TeamOverview = () => {
             </div>
           </div>
 
-          {/* Advisors */}
+          {/* Affiliates */}
           <div className="glass-card p-8 rounded-lg border border-white/20">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-emerald-500/20 rounded-full mr-4">
                 <UserCheck className="w-8 h-8 text-emerald-400" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white">Advisory Board</h3>
-                <p className="text-gray-300">3 strategic advisors</p>
+                <h3 className="text-2xl font-bold text-white">Affiliates</h3>
+                <p className="text-gray-300">2 strategic affiliates</p>
               </div>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {advisors.map((advisor, index) => (
                 <div 
                   key={index}
@@ -90,31 +89,6 @@ const TeamOverview = () => {
                   </div>
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Combined Expertise - Now separate section */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="glass-card p-8 rounded-lg border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-6 text-center">Combined Expertise</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center text-sm text-gray-300">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                <span>3x Serial Entrepreneurs</span>
-              </div>
-              <div className="flex items-center text-sm text-gray-300">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                <span>2x Medical Doctors (GP, Medical Specialist)</span>
-              </div>
-              <div className="flex items-center text-sm text-gray-300">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                <span>4x Corporate Experience</span>
-              </div>
-              <div className="flex items-center text-sm text-gray-300">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full mr-3"></div>
-                <span>30+ Years Venture Building</span>
-              </div>
             </div>
           </div>
         </div>
