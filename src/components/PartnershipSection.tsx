@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Handshake } from 'lucide-react';
 
 const PartnershipSection = () => {
   const partnerTypes = [
@@ -49,18 +48,7 @@ const PartnershipSection = () => {
           ))}
         </div>
 
-        <div className="mt-20 bg-white/10 backdrop-blur-sm rounded-lg p-8 md:p-12 text-center border border-white/20">
-          <div className="flex justify-center mb-6">
-            <div className="p-4 rounded-full bg-emerald-400/20 border border-emerald-400/30">
-              <Handshake className="w-12 h-12 text-emerald-400" />
-            </div>
-          </div>
-          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">Our Collaborative Approach</h3>
-          <p className="text-gray-300 max-w-3xl mx-auto mb-8">
-            At No Analog Ventures, we believe that meaningful healthcare innovation happens through 
-            strategic collaboration. We bring together diverse expertise, unique perspectives, 
-            and complementary resources to create solutions that address complex healthcare challenges.
-          </p>
+        <div className="mt-20 text-center">
           <a 
             href="#contact" 
             className="bg-emerald-400 hover:bg-emerald-500 text-slate-900 px-8 py-3 rounded-md transition-colors inline-block font-medium"
