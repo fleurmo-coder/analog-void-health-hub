@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Handshake } from 'lucide-react';
 
@@ -17,7 +18,7 @@ const PartnershipSection = () => {
     },
     {
       title: "Funding Partners",
-      description: "We partner with investors, venture capital firms, and funding organizations that share our vision for transforming healthcare through innovative digital solutions."
+      description: "We partner with investors, venture capital firms, and funding organizations to promote our vision of transforming healthcare through innovative digital solutions."
     },
   ];
 
