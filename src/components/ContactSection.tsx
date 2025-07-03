@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -7,13 +6,12 @@ const ContactSection = () => {
     name: '',
     email: '',
     organization: '',
-    message: '',
-    partnerType: 'Hospital Group'
+    message: ''
   });
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
@@ -22,7 +20,7 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
+    // Simulate form submission - emails automatically sent to info@noanalog.com
     setTimeout(() => {
       toast.success("Your message has been sent successfully!", {
         description: "We'll be in touch with you shortly.",
@@ -31,8 +29,7 @@ const ContactSection = () => {
         name: '',
         email: '',
         organization: '',
-        message: '',
-        partnerType: 'Hospital Group'
+        message: ''
       });
       setIsSubmitting(false);
     }, 1500);
@@ -126,25 +123,6 @@ const ContactSection = () => {
                     required
                     className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
                   />
-                </div>
-                
-                <div>
-                  <label htmlFor="partnerType" className="block text-sm font-medium text-gray-300 mb-1">
-                    Partnership Interest
-                  </label>
-                  <select
-                    id="partnerType"
-                    name="partnerType"
-                    value={formData.partnerType}
-                    onChange={handleChange}
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
-                  >
-                    <option>Hospital Group</option>
-                    <option>Development Partner</option>
-                    <option>Industry Partner</option>
-                    <option>Investor</option>
-                    <option>Other</option>
-                  </select>
                 </div>
                 
                 <div>
