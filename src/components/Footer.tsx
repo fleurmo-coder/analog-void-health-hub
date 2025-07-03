@@ -18,8 +18,7 @@ const Footer = () => {
               <span className="text-blue-300 font-light">. Ventures</span>
             </a>
             <p className="text-gray-300 mb-6">
-              Building the future of digital health through strategic innovation, 
-              collaborative partnerships, and deep healthcare expertise.
+              Building the future of digital health together.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors">
