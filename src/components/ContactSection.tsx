@@ -50,7 +50,7 @@ const ContactSection = () => {
             Get in <span className="text-[#ADD8E6]">Touch</span>
           </h2>
           <p className="subheading">
-            Have a question or interested in partnering with us? Reach out today.
+            Interested or have a question? Reach out today.
           </p>
         </div>
         
