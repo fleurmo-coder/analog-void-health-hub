@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -68,7 +69,7 @@ const ContactSection = () => {
             <div className="mt-10">
               <h3 className="text-2xl font-bold mb-6">Our Commitment</h3>
               <p className="text-gray-400 mb-4">
-                We're committed to transforming healthcare through digital innovation. Our team brings
+                We're committed to revolutionizing healthcare through digital innovation. Our team brings
                 together expertise in healthcare, technology, and business to create solutions that make a real difference.
               </p>
               <p className="text-gray-400">
