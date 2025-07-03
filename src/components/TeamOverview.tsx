@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Users, UserCheck, Briefcase } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
@@ -23,7 +24,7 @@ const TeamOverview = () => {
             Team <span className="text-blue-300">Overview</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-300 mt-6 leading-relaxed">
-            Very experienced and complete team: 3x serial entrepreneurs, 2x MD (GP, Medical specialist) 
+            Experienced and complete team: 3x serial entrepreneurs, 2x MD (GP, Medical specialist) 
             4x corporate experience and combined 30 years of venture building experience
           </p>
         </div>
