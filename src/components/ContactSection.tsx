@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -59,23 +58,9 @@ const ContactSection = () => {
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
             <div className="space-y-6">
               <div>
-                <h4 className="text-[#ADD8E6] font-medium mb-2">Address</h4>
-                <p className="text-gray-400">
-                  Frankrijkstraat 114<br />
-                  5622AH<br />
-                  Eindhoven
-                </p>
-              </div>
-              <div>
                 <h4 className="text-[#ADD8E6] font-medium mb-2">Email</h4>
                 <a href="mailto:info@noanalog.com" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
                   info@noanalog.com
-                </a>
-              </div>
-              <div>
-                <h4 className="text-[#ADD8E6] font-medium mb-2">Phone</h4>
-                <a href="tel:+14155555555" className="text-gray-400 hover:text-[#ADD8E6] transition-colors">
-                  (415) 555-5555
                 </a>
               </div>
             </div>
