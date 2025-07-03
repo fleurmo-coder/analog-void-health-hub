@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Handshake } from 'lucide-react';
 
@@ -10,11 +9,11 @@ const PartnershipSection = () => {
     },
     {
       title: "Development Partners",
-      description: "Our technical partnerships bring specialized expertise to our ventures, accelerating development timelines and enhancing solution capabilities."
+      description: "Our technical partnerships bring specialized expertise to our ventures, accelerating development, and elevate the product."
     },
     {
       title: "Industry Partners",
-      description: "We work with pharmaceutical companies, medical device manufacturers, and other healthcare organizations to develop complementary digital solutions."
+      description: "We work with big tech, medical device, pharmaceutical, and other healthcare focused companies to develop digital solutions."
     },
     {
       title: "Funding Partners",
