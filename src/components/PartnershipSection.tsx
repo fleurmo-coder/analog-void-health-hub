@@ -6,7 +6,7 @@ const PartnershipSection = () => {
   const partnerTypes = [
     {
       title: "Hospital Groups",
-      description: "We collaborate with forward-thinking hospitals and health systems to implement digital health solutions that enhance patient care and optimize operations."
+      description: "We collaborate with forward-thinking hospitals and health systems to implement digital health solutions that revolutionize patient care."
     },
     {
       title: "Development Partners",
@@ -30,7 +30,7 @@ const PartnershipSection = () => {
             <span className="text-emerald-400">Partnership</span> Opportunities
           </h2>
           <p className="subheading">
-            Collaborate with us to drive innovation and transformation in healthcare delivery
+            Collaborate with us to drive essential digital innovation in healthcare
           </p>
         </div>
         
