@@ -77,7 +77,11 @@ const ContactSection = () => {
           </div>
           
           <div className="bg-noanalog-light p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-6">Send us a Message</h3>
+            <h3 className="text-2xl font-bold mb-6">
+              <a href="mailto:info@noanalog.com" className="hover:text-[#ADD8E6] transition-colors">
+                Send us a Message
+              </a>
+            </h3>
             <form onSubmit={handleSubmit}>
               <div className="space-y-4">
                 <div>
