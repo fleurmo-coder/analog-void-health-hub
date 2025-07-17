@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -25,9 +26,9 @@ const HeroSection = () => {
               alt="No Analog Ventures Logo" 
               className="h-16 md:h-24 lg:h-32 w-auto mb-6"
             />
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-normal tracking-tight text-white nav-w-logo">
-              <span className="logo-no">No</span> <span className="logo-analog">Analog</span>
-              <span className="text-blue-300"> . Ventures</span>
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight text-white nav-w-logo">
+              <span className="logo-no font-bold">No</span> <span className="logo-analog font-bold">Analog</span>
+              <span className="text-blue-300 font-bold"> . Ventures</span>
             </h1>
           </div>
 
