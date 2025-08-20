@@ -77,7 +77,7 @@ const ContactSection = () => {
                 href="mailto:info@noanalog.com"
                 className="w-full bg-[#ADD8E6] hover:bg-[#9FCCE6] text-black font-medium py-3 rounded-md transition-colors flex items-center justify-center"
               >
-                Send us a Message
+                Create Message
               </a>
             </div>
           </div>
