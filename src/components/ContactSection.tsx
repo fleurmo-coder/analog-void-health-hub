@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 import { toast } from 'sonner';
 
 const ContactSection = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    organization: '',
-    message: ''
-  });
+  const [formData, setFormData] = useState({});
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   
@@ -25,12 +20,7 @@ const ContactSection = () => {
       toast.success("Your message has been sent successfully!", {
         description: "We'll be in touch with you shortly.",
       });
-      setFormData({
-        name: '',
-        email: '',
-        organization: '',
-        message: ''
-      });
+      setFormData({});
       setIsSubmitting(false);
     }, 1500);
   };
@@ -84,66 +74,6 @@ const ContactSection = () => {
             </h3>
             <form onSubmit={handleSubmit}>
               <div className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="organization" className="block text-sm font-medium text-gray-300 mb-1">
-                    Organization
-                  </label>
-                  <input
-                    type="text"
-                    id="organization"
-                    name="organization"
-                    value={formData.organization}
-                    onChange={handleChange}
-                    required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    className="w-full bg-noanalog-darker border border-gray-700 rounded-md px-4 py-2 text-white focus:border-[#ADD8E6] focus:outline-none focus:ring-1 focus:ring-[#ADD8E6]"
-                  ></textarea>
-                </div>
-                
                 <div>
                   <button
                     type="submit"
