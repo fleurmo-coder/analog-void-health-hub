@@ -16,7 +16,7 @@ const FocusAreas = () => {
     },
     {
       icon: <Users className="w-12 h-12" />,
-      title: "Pharma (Biotech)",
+      title: "Pharma",
       description: "Creating evidence-based digital tools for pharma including software programs to prevent, manage, or treat medical conditions."
     }
   ];
