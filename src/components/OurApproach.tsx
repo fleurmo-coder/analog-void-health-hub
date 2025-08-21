@@ -11,7 +11,7 @@ const OurApproach = () => {
     {
       icon: <BarChart className="w-12 h-12 text-emerald-400" />,
       title: "Data-Driven Insights",
-      description: "Our ventures leverage advanced analytics and AI to transform healthcare data into actionable insights that drive better clinical decision-making."
+      description: "We leverage advanced analytics and AI to transform healthcare data into actionable insights that drive better clinical decision-making."
     },
     {
       icon: <Users className="w-12 h-12 text-emerald-400" />,
