@@ -9,7 +9,7 @@ const PartnershipSection = () => {
     },
     {
       title: "Development Partners",
-      description: "Our technical partnerships bring specialized expertise to our ventures, accelerating development, and elevate the product."
+      description: "Our technical and service partnerships bring specialized expertise to our ventures, accelerating development, and elevate the product."
     },
     {
       title: "Industry Partners",
