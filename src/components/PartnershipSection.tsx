@@ -53,7 +53,7 @@ const PartnershipSection = () => {
             href="#contact" 
             className="bg-emerald-400 hover:bg-emerald-500 text-slate-900 px-8 py-3 rounded-md transition-colors inline-block font-medium"
           >
-            Explore Partnership Opportunities
+            Get in Touch
           </a>
         </div>
       </div>
