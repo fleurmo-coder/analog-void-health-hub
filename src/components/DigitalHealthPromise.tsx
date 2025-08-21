@@ -12,7 +12,7 @@ const DigitalHealthPromise = () => {
     {
       icon: <AlertCircle className="w-12 h-12 text-emerald-400" />,
       title: "Innovation Gap",
-      description: "While innovation is the only viable solution, over 90% of science-based digital health innovations fail to reach the market."
+      description: "While this cannot be solved without innovation, over 90% of science-based digital health innovations fail to reach the market."
     },
     {
       icon: <Lightbulb className="w-12 h-12 text-emerald-400" />,
