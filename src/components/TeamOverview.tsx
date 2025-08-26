@@ -14,7 +14,6 @@ const TeamOverview = () => {
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png', linkedInUrl: 'https://www.linkedin.com/in/valeriagottardo/' },
     { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png', linkedInUrl: 'https://www.linkedin.com/in/sewa-ojutiku/' },
     { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true, image: '/lovable-uploads/c9284be7-9e6a-49c5-9a56-160d92c1e9f3.png', linkedInUrl: 'https://www.linkedin.com/in/bfgeerts/' },
-    { role: 'Venture Partner', name: 'Confidential', isAffiliate: true, image: '/lovable-uploads/adc37770-11ae-43e5-b01e-ea30f8759ab7.png' },
     { role: 'Funding Expert', name: 'ARVIND RAO', isAffiliate: true, image: '/lovable-uploads/f96c63bb-1024-488c-8868-ba207fae18b9.png', linkedInUrl: 'https://www.linkedin.com/in/arvind-rao-4852012/' }
   ];
 
@@ -40,7 +39,7 @@ const TeamOverview = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">Team</h3>
-                <p className="text-gray-300">7 dedicated <span className="text-blue-300">core members</span> and 3 <span className="text-emerald-400">affiliates</span></p>
+                <p className="text-gray-300">7 dedicated <span className="text-blue-300">core members</span> and 2 <span className="text-emerald-400">affiliates</span></p>
               </div>
             </div>
             
