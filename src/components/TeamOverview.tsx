@@ -12,7 +12,7 @@ const TeamOverview = () => {
     { role: 'Venture Builder', name: 'WESSEL LIGTENBERG', isAffiliate: false, image: '/lovable-uploads/e5a8ef7e-906d-4c64-8954-35917d8391c8.png', linkedInUrl: 'https://www.linkedin.com/in/wesselligtenberg/' },
     { role: 'Partnerships', name: 'CIARA HENNESSY', isAffiliate: false, image: '/lovable-uploads/9fac4dc3-2a07-4460-89d1-83b3b489b4d0.png' },
     { role: 'Technology Specialist', name: 'VALERIA GOTTARDO', isAffiliate: false, image: '/lovable-uploads/de5ab3c1-a479-4cf0-9142-ea3b1727eb8e.png', linkedInUrl: 'https://www.linkedin.com/in/valeriagottardo/' },
-    { role: 'Investment Analyst', name: 'SEWA OJUTIKU', isAffiliate: false, image: '/lovable-uploads/5e9acbe5-ee42-439d-b1ac-3ec4c163eafc.png', linkedInUrl: 'https://www.linkedin.com/in/sewa-ojutiku/' },
+    { role: 'Investment Analyst', name: 'Pending', isAffiliate: false, image: '/lovable-uploads/adc37770-11ae-43e5-b01e-ea30f8759ab7.png' },
     { role: 'Medical Expert', name: 'BART GEERTS', isAffiliate: true, image: '/lovable-uploads/c9284be7-9e6a-49c5-9a56-160d92c1e9f3.png', linkedInUrl: 'https://www.linkedin.com/in/bfgeerts/' },
     { role: 'Funding Expert', name: 'ARVIND RAO', isAffiliate: true, image: '/lovable-uploads/f96c63bb-1024-488c-8868-ba207fae18b9.png', linkedInUrl: 'https://www.linkedin.com/in/arvind-rao-4852012/' }
   ];
